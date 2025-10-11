@@ -46,5 +46,4 @@ This project covers the design, development, and delivery of Property Tycoon –
 
 ## Figma Workspace 
 
-Figma was used to design many elements in our project including the gameboard itself, the property cards, the “pot luck” cards and the “opportunity knocks” cards. It is linked here.
-[<a link>] (<https://www.figma.com/design/9kcLpGNVO8mvwCSGL5f2Fy/Property-Tycoon>)
+Figma was used to design many elements in our project including the gameboard itself, the property cards, the “pot luck” cards and the “opportunity knocks” cards. It is linked [here](https://www.figma.com/design/9kcLpGNVO8mvwCSGL5f2Fy/Property-Tycoon).
