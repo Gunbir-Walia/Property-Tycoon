@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Stores card data, can be edit in unity project.">
+    <Position X="0.709" Y="0.5" Height="0.59" Width="1.7" />
+  </Comment>
+  <Comment CommentText="This Class will suffle cards in provided card list and store in a list.&#xD;&#xA;When other methods call PickCardFrom, it will pop the card at the top of stored suffled card list.&#xD;&#xA;When a card action is done, it will then put back to the bottom of the list.">
+    <Position X="7.887" Y="0.587" Height="1.425" Width="2.664" />
+  </Comment>
+  <Comment CommentText="Store a list of set cards which then referred by the CardManager">
+    <Position X="5.342" Y="2.983" Height="0.612" Width="1.7" />
+  </Comment>
+  <Comment CommentText="The type of card which takes different actions">
+    <Position X="2.511" Y="3.045" Height="0.594" Width="1.314" />
+  </Comment>
+  <Comment CommentText="The move type when CardType is move">
+    <Position X="2.492" Y="1.227" Height="0.429" Width="1.7" />
+  </Comment>
+  <Comment CommentText="The payer or payee if CardType is Pay or Repair">
+    <Position X="2.492" Y="5.405" Height="0.75" Width="1.415" />
+  </Comment>
+  <Comment CommentText="Different Card action class accroding to the CardType set in particular card.&#xD;&#xA;They forms a finite state machine which will switch base on CardType by CardActionManager and execute the given cardAction, which implements from their abstract class &#xD;&#xA;">
+    <Position X="15.58" Y="0.564" Height="1.209" Width="3.785" />
+  </Comment>
+  <Comment CommentText="The UI that shows Card Action and Buttons that may requires by cards.">
+    <Position X="20.651" Y="0.819" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="The base abstract class of all of the actions that may perform by player">
+    <Position X="11.913" Y="0.756" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="The Class which will switch to when a player need to perform a card related action.&#xD;&#xA;It will draw a card from CardManager, then execute card action according to picked card, after CardUI is poped up and closed.">
+    <Position X="11.379" Y="8.432" Height="1.503" Width="2.646" />
+  </Comment>
+  <Class Name="GameBaseStates">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAgQCAAAgAIAAAACAQAAAAAAAAAAKAAAAAAgQ=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\GameBaseStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardState">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAgAAAAAgAAAAAAAAQAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardCards">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hCAIAAQAIAQQGYwAAAAgAAEAKAkAEgABEAQgAFgAAAA=</HashCode>
+      <FileName>Assets\Script\Cards\BoardCards.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardList">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\Cards\CardList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardManager">
+    <Position X="8" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIAAAVABABAACAAAAABAIIAAAMAAAACAAAEgCAA=</HashCode>
+      <FileName>Assets\Script\Cards\CardManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShowCardDetail">
+    <Position X="20.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABACAAQIAQACAFAEgQAQAAAAAAAAAAAIIAQAgAAAiEA=</HashCode>
+      <FileName>Assets\Script\Cards\ShowCardDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActions">
+    <Position X="15.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAEAAAAIAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActionManager">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActionMove">
+    <Position X="17.75" Y="7.25" Width="1.5" />
+    <InheritanceLine Type="CardActions" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="17.25" Y="2.562" />
+        <Point X="17.49" Y="2.562" />
+        <Point X="17.49" Y="7.942" />
+        <Point X="17.75" Y="7.942" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActionPay">
+    <Position X="17.75" Y="4" Width="1.5" />
+    <InheritanceLine Type="CardActions" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="17.25" Y="2.562" />
+        <Point X="17.49" Y="2.562" />
+        <Point X="17.49" Y="4.785" />
+        <Point X="17.75" Y="4.785" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActionJailFree">
+    <Position X="17.75" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="CardActions" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="17.25" Y="2.562" />
+        <Point X="17.49" Y="2.562" />
+        <Point X="17.49" Y="6.442" />
+        <Point X="17.75" Y="6.442" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActionRepair">
+    <Position X="17.75" Y="8.75" Width="1.5" />
+    <InheritanceLine Type="CardActions" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="17.25" Y="2.562" />
+        <Point X="17.49" Y="2.562" />
+        <Point X="17.49" Y="9.442" />
+        <Point X="17.75" Y="9.442" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActionTakeOtherCard">
+    <Position X="17.75" Y="2" Width="1.5" />
+    <InheritanceLine Type="CardActions" FixedFromPoint="true">
+      <Path>
+        <Point X="17.25" Y="2.562" />
+        <Point X="17.49" Y="2.562" />
+        <Point X="17.49" Y="3.221" />
+        <Point X="17.75" Y="3.221" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="PayTarget">
+    <Position X="2.5" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Script\Cards\BoardCards.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CardType">
+    <Position X="2.5" Y="3.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Script\Cards\BoardCards.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PlayerMoveType">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Cards\BoardCards.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CardListType">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Script\Cards\CardManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

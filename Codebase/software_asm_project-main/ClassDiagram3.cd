@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="A simple script that is attached to the dicing button in game and will return a random dice point">
+    <Position X="0.613" Y="0.5" Height="0.866" Width="1.7" />
+  </Comment>
+  <Comment CommentText="The abstract class that provides methods for other class to implement methods that can be execute by the main controller">
+    <Position X="11.27" Y="0.615" Height="1.059" Width="1.671" />
+  </Comment>
+  <Comment CommentText="The manager that return the actual child class of the abstract class according to the given game states. Togerher with the base state class to form a finite state machine.">
+    <Position X="8.122" Y="0.549" Height="1.394" Width="1.827" />
+  </Comment>
+  <Comment CommentText="The control script of the game camera, which handles the transition between cameras looking at different players.">
+    <Position X="19.955" Y="1.06" Height="0.768" Width="2.389" />
+  </Comment>
+  <Comment CommentText="The class contains all of the frequenly used methods that requires by the GameController class. In here, it provides all of the moving method for the player and decides whether or not the camera should perform a transition.">
+    <Position X="14.265" Y="0.522" Height="1.268" Width="2.534" />
+  </Comment>
+  <Comment CommentText="the ID of the four corners tile in the table. It is used when a player needs to travel for a long distance and set a temporaly goal for them, so that the player will not go to a wrong direction.">
+    <Position X="17" Y="0.5" Height="1.58" Width="1.7" />
+  </Comment>
+  <Comment CommentText="This class contains all of the data of a peoperty. Some of them which is given in the game settings, such as property type, color and price. They can be modity inside the unity engine.&#xD;&#xA;others data contains here, such as the house_num , are the data generate in game, and will be reset everytime a new game starts.&#xD;&#xA;This class also provide some quick method, such as GetRentPrice(), GetUpgradePrice(), Landlord() base on the data it contains.&#xD;&#xA;">
+    <Position X="23.953" Y="0.559" Height="1.743" Width="3.352" />
+  </Comment>
+  <Comment CommentText="The board type given in the game settings, which will affect the actions when a player trigger and retrive the data of this board object.">
+    <Position X="26.632" Y="9.78" Height="1.09" Width="2.045" />
+  </Comment>
+  <Comment CommentText="The property color that is given in the game setting, which affects on the rentPrice and upgradePrice.">
+    <Position X="26.827" Y="4.973" Height="1.137" Width="1.476" />
+  </Comment>
+  <Comment CommentText="A simple class which will send trigger to the main controller class when a player steps on  the tile in game, where this script is attach to. It also contains a BoardPlaceData for the main controller to retrive data from.">
+    <Position X="23.511" Y="11.968" Height="1.09" Width="2.719" />
+  </Comment>
+  <Comment CommentText="The main controller class, objective to all of the main actions and trigger other classes if any further actions need to carry out.">
+    <Position X="4.44" Y="0.51" Height="0.77" Width="2.519" />
+  </Comment>
+  <Comment CommentText="The class that contains all of the data related to a player. This class also contains several quick method, Such as PayToPlayer, IsInJail .etc for the methods that need to retrive data from the player.">
+    <Position X="0.641" Y="4.45" Height="1.095" Width="2.371" />
+  </Comment>
+  <Comment CommentText="The class which handles the actions when a player throw a dice">
+    <Position X="11.162" Y="8.791" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="DiceingState">
+    <Position X="11.25" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAgAAAAAAAAQAEAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\DiceingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameBaseStates">
+    <Position X="11.25" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAgQCAAAgAIAAAACAQAAAAAAAAAAKAAAAAAgQ=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\GameBaseStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Throwdice">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAASgAAAAAAABAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Throw dice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameController">
+    <Position X="4.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>Ag0SgJVRFCAEgiCgcBAgBGIIABCgGUMAQYGBAABQAIQ=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManager">
+    <Position X="8" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAAEAQAAAAAAAAAAAAICAAAAAAAACAAAAAAAQAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\GameStateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraControl">
+    <Position X="20" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAAAAwAAQAAQAABAAAAQAAAEAAAAAAAEgEA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\CameraControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CornerID">
+    <Position X="17" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameMethods">
+    <Position X="15.25" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="GameMethods.camDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Script\PlayerControl\GameMethods.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gIFEAiAAESBAYVQAEAAACABACAACAAgAIALQAACAAAQ=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardPlaceData">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQCASAAAAAIEAAJDCgABAEAAAgAAAgAAQBICgA=</HashCode>
+      <FileName>Assets\Script\boara places\BoardPlaceData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardControl">
+    <Position X="24" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAAAEAAAQAAAAAAAABAAAAQAAAAAAKAEA=</HashCode>
+      <FileName>Assets\Script\boara places\BoardControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInfo">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kaABAAAggwAEAMAAQAFQACIggIAACAAAAAAGACAlEAQ=</HashCode>
+      <FileName>Assets\Script\PlayerControl\PlayerInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GameStates">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEAAAAAAAAAAAAIAACAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\GameStateManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BoardType">
+    <Position X="26.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAEAAgAAAgUAAAAAIAAAAEAAAAAAAAAQAAgAA=</HashCode>
+      <FileName>Assets\Script\boara places\BoardPlaceData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PropertyColor">
+    <Position X="26.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAEAgAAIAAAQAAAAAAAgAAAAAAEAAAAAAgAAI=</HashCode>
+      <FileName>Assets\Script\boara places\BoardPlaceData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

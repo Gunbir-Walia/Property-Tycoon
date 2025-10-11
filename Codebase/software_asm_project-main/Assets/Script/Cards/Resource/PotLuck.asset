@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3904f089474a9244b0c2f8cd2741153, type: 3}
+  m_Name: PotLuck
+  m_EditorClassIdentifier: 
+  ListType: 2
+  cardList:
+  - {fileID: 11400000, guid: 2043b2b79bbb98d4aa40cc15abcb1399, type: 2}
+  - {fileID: 11400000, guid: 0b943c9ac6c285a4a98fe14e2e5a6cf7, type: 2}
+  - {fileID: 11400000, guid: 7ddfccf2a7683de4e9c3f529be15c7d1, type: 2}
+  - {fileID: 11400000, guid: 091fa1bc6e1a7f34ba27a982ea8aeee8, type: 2}
+  - {fileID: 11400000, guid: 810a414c2faf5c44bb792469afd9c97e, type: 2}
+  - {fileID: 11400000, guid: 99ab973c631db2d4987a042ed5f027b8, type: 2}
+  - {fileID: 11400000, guid: 2567b25fbadb458428335ec68104101f, type: 2}
+  - {fileID: 11400000, guid: 8ed8892b8545bb842a059bd26e11707f, type: 2}
+  - {fileID: 11400000, guid: 6df98781016257e40bfe722efc54aa0b, type: 2}
+  - {fileID: 11400000, guid: 4c495e81f44de2c4ba4887b6f3c192bc, type: 2}
+  - {fileID: 11400000, guid: cca1a0213289dad45b8c393c55c85606, type: 2}
+  - {fileID: 11400000, guid: ec11ef4c06cd9b149b6913cc0d2babf5, type: 2}
+  - {fileID: 11400000, guid: ce9df480e8f227846a68afc83283bf5a, type: 2}
+  - {fileID: 11400000, guid: b39f82289e212f346ad92a9b62527174, type: 2}
+  - {fileID: 11400000, guid: e8c803f819e1db747bc8b9eab1953596, type: 2}
+  - {fileID: 11400000, guid: e736f1c062e53d447bc1d21b4e099bb8, type: 2}
+  - {fileID: 11400000, guid: 4112fca091b60ad4f92d7c354df4fdf0, type: 2}

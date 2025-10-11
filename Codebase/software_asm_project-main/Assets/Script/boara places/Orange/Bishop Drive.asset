@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2642ff74f798c84e98781de8adba443, type: 3}
+  m_Name: Bishop Drive
+  m_EditorClassIdentifier: 
+  boardName: Bishop Drive
+  boardType: 0
+  boardBG: {fileID: 0}
+  propertyPrice: 180
+  rentPrice: 0e00000046000000c800000026020000ee020000b6030000
+  propertyColor: 3
+  moneyChange: 0
+  house_price: 100
+  house_num: 0
+  ownerID: -1
+  tileID: 16
+  cardList: 0

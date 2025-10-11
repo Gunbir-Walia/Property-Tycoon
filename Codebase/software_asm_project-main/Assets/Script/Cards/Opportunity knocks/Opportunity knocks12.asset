@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430678bb0f79a4d4ab085fee1dfb5402, type: 3}
+  m_Name: Opportunity knocks12
+  m_EditorClassIdentifier: 
+  _cardID: 12
+  _cardDesc: "Advance to Skywalker Drive. If you pass GO collect \xA3200"
+  _cardType: 0
+  _isMoveFixStep: 0
+  _moveSteps: -3
+  _isPassGo: 1
+  _moveToBoard: {fileID: 11400000, guid: 4a3c40acf27705a40ad3e7b8cd381580, type: 2}
+  _moneyPaid: 25
+  _payTo: 0
+  _payFrom: 2
+  _cardSprite: {fileID: 21300000, guid: e9d209741059ca44ba43591a5c810548, type: 3}

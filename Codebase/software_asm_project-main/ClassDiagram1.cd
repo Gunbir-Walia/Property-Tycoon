@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CardManager">
+    <Position X="2.75" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIAAAVABABAACAAAAABAIIAAAMAAAACAAAEgCAA=</HashCode>
+      <FileName>Assets\Script\Cards\CardManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardList">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\Cards\CardList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShowCardDetail">
+    <Position X="6" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABACAAQIAQACAFAEgQAQAAAAAAAAAAAIIAQAgAAAiEA=</HashCode>
+      <FileName>Assets\Script\Cards\ShowCardDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActions" Collapsed="true">
+    <Position X="5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAEAAAAIAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActionManager" Collapsed="true">
+    <Position X="7.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActionMove" Collapsed="true">
+    <Position X="7.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActionPay" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActionJailFree" Collapsed="true">
+    <Position X="5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActionRepair" Collapsed="true">
+    <Position X="9.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardActionTakeOtherCard" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerControl\GameStates\CardActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CardListType">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Script\Cards\CardManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

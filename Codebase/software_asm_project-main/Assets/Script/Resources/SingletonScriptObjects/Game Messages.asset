@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24fe3889f6a091e459f1bb28572d58b0, type: 3}
+  m_Name: Game Messages
+  m_EditorClassIdentifier: 
+  JailMessages:
+  - "You are arrested. Pay \xA350 to release from jail or stay in jail for the next
+    two rounds"
+  - You are arrested, but you have a card that can get you out of jail free
+  - "You are arrested because you throw a double three times. \nPay \xA350 to release
+    from jail or stay in jail for the next two rounds"
+  PropertyUIMessages:
+  - 'Cost to purchased: '
+  - 'Cost to upgrade: '
+  - 'Rent to pay: '
+  - no house
+  - 1 house
+  - 4 houses + hotel
+  BoardUIMessages:
+  - No one owns this utility here. Do you want to buy this?
+  - No one owns this station here. Do you want to buy this?
+  - It's your turn to pick a card, good luck :)
+  - You visit the jail.
+  - There is no money store in the park.

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2642ff74f798c84e98781de8adba443, type: 3}
+  m_Name: James Webb Way
+  m_EditorClassIdentifier: 
+  boardName: James Webb Way
+  boardType: 0
+  boardBG: {fileID: 0}
+  propertyPrice: 350
+  rentPrice: 23000000af000000f40100004c04000014050000dc050000
+  propertyColor: 7
+  moneyChange: 0
+  house_price: 200
+  house_num: 0
+  ownerID: -1
+  tileID: 37
+  cardList: 0

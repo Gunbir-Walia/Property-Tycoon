@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3904f089474a9244b0c2f8cd2741153, type: 3}
+  m_Name: Opportunity knocks
+  m_EditorClassIdentifier: 
+  ListType: 1
+  cardList:
+  - {fileID: 11400000, guid: 0b5575e4d92efa74ca3580d14518a751, type: 2}
+  - {fileID: 11400000, guid: ca70a390ed3e3754c913a2dd828bde28, type: 2}
+  - {fileID: 11400000, guid: d943cca4511cee24197abb0e3f1a2f6c, type: 2}
+  - {fileID: 11400000, guid: 1d6d002b17fdbb5468c80f3aff7474d6, type: 2}
+  - {fileID: 11400000, guid: ec83193a99362f142b4dd2dff9ce713a, type: 2}
+  - {fileID: 11400000, guid: e94359dfe3acced4594b2cb4d31d7b66, type: 2}
+  - {fileID: 11400000, guid: 3d8782b0e97c72049a568fe33b8bb172, type: 2}
+  - {fileID: 11400000, guid: 9fd05a20f4f95b343ac6904e95a2363f, type: 2}
+  - {fileID: 11400000, guid: 516881be9a1ab2442b168281030a3ea4, type: 2}
+  - {fileID: 11400000, guid: 647b39f96d9279d48b0280c0e8217df6, type: 2}
+  - {fileID: 11400000, guid: f0c3bae9b8d068d43a91fcee11d94c90, type: 2}
+  - {fileID: 11400000, guid: 40624af112fcc924abab67a01fa76a62, type: 2}
+  - {fileID: 11400000, guid: c79fd4a94c8f4fd448556ffd037878b1, type: 2}
+  - {fileID: 11400000, guid: 5332114d42ef0c14380752ea0346c5e2, type: 2}
+  - {fileID: 11400000, guid: 35da75e162870c94b80814fabcc88119, type: 2}
+  - {fileID: 11400000, guid: 427dcd12b2ba18c408641a1d5b40ef43, type: 2}

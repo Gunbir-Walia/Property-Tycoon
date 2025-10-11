@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430678bb0f79a4d4ab085fee1dfb5402, type: 3}
+  m_Name: PotLuck15
+  m_EditorClassIdentifier: 
+  _cardID: 15
+  _cardDesc: "It's your birthday. Collect \xA310 from each player"
+  _cardType: 1
+  _isMoveFixStep: 0
+  _moveSteps: 0
+  _isPassGo: 1
+  _moveToBoard: {fileID: 11400000, guid: fb1b26758ce1eaa43a1dde91ab1b9e1f, type: 2}
+  _moneyPaid: 10
+  _payTo: 2
+  _payFrom: 3
+  _cardSprite: {fileID: 21300000, guid: eb003f478a65eab47942b6b632f46467, type: 3}
+  _houseRepairPrice: 0
+  _hotelRepairPrice: 0
+  BelongedCardList: 0
