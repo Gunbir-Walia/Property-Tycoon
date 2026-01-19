@@ -32,19 +32,19 @@ Figma was used to design many elements in our project including the gameboard it
 │   │   ├── .gitignore
 │   │   ├── ClassDiagram1.cd
 │   │   ├── ClassDiagram2.cd
-│   │   ├── ClassDiagram3.cd
+│   │   └── ClassDiagram3.cd
 ├── Documentation
 │   ├── Gantt Chart
 │   ├── High Level Design
 │   │   ├── Flow Charts
-│   │   ├── Use Case Diagrams
+│   │   └── Use Case Diagrams
 │   ├── Low Level Design
 │   │   ├── Class Diagrams
-│   │   ├── Sequence Diagrams
+│   │   └── Sequence Diagrams
 │   ├── Meeting Documentation
 │   ├── Sprint Documentation
 │   ├── Testing Documentation
-│   ├── Reports
+│   └── Reports
 └── README.md
 ```
 
